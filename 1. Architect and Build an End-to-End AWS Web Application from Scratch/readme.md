@@ -58,6 +58,8 @@ The app showcases how to:
 
 - We can see that the function is created successfully . 
 
+![alt text](<Images/Screenshot 2025-08-29 021634.png>)
+
 - We now add the code from this file and deploy the function:
 
 [lamba-function](lambda-func.py) 
