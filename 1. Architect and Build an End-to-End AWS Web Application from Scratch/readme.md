@@ -23,7 +23,7 @@ The app showcases how to:
 ## Create and host the web page:
 
 - Create a simple `"index.html"` file with the following code : 
-![alt text](index.html.png)
+![alt text](../1.%20Architect%20and%20Build%20an%20End-to-End%20AWS%20Web%20Application%20from%20Scratch/images/index.html.png)
 
 - Zip the file 
 
