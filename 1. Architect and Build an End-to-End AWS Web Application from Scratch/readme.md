@@ -10,3 +10,10 @@ The app showcases how to:
 - Run backend logic with AWS Lambda (Python),
 - Persist data in a DynamoDB NoSQL database, and
 - Manage secure access with IAM permissions.
+
+# Prerequisites
+- AWS account with console access.
+- Basic AWS knowledge (Lambda, API Gateway, DynamoDB).
+- Text editor (VS Code, Notepad++).
+- Python 3.9+ (for Lambda).
+- Zip utility (to compress HTML for Amplify).
