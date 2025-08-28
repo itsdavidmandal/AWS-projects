@@ -25,6 +25,24 @@ The app showcases how to:
 - Create a simple `"index.html"` file with the following code : 
 ![alt text](./Images/index.html.png)
 
-- Zip the file 
+- Zip the file :
+
 ![alt text](<Images/Screenshot 2025-08-29 012856.png>)
 
+- Go to the `AWS Amplify` page and select `Deploy without Git` 
+
+![alt text](<Images/Screenshot 2025-08-29 014945.png>)
+
+- Provide the app name and the branch name 
+![alt text](<Images/Screenshot 2025-08-29 015024.png>)
+
+- Scroll down a little bit and upload the Zip file 
+![alt text](<Images/Screenshot 2025-08-29 015049.png>)
+
+- Wait for a moment , and we can see that the website is deployed. 
+![alt text](<Images/Screenshot 2025-08-29 015127.png>)
+
+- We can click on the link provided and it redierects us to the website . 
+![alt text](<Images/Screenshot 2025-08-29 015153.png>)
+
+![alt text](<Images/Screenshot 2025-08-29 015158.png>)
