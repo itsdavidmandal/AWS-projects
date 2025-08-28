@@ -17,3 +17,13 @@ The app showcases how to:
 - Text editor (VS Code, Notepad++).
 - Python 3.9+ (for Lambda).
 - Zip utility (to compress HTML for Amplify).
+
+# Step-by-Step Guide: 
+
+## Create and host the web page:
+
+- Create a simple `"index.html"` file with the following code : 
+![alt text](index.html.png)
+
+- Zip the file 
+
