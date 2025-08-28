@@ -43,6 +43,19 @@ The app showcases how to:
 ![alt text](<Images/Screenshot 2025-08-29 015127.png>)
 
 - We can click on the link provided and it redierects us to the website . 
+
 ![alt text](<Images/Screenshot 2025-08-29 015153.png>)
 
 ![alt text](<Images/Screenshot 2025-08-29 015158.png>)
+
+## Create the Lambda function: 
+
+- Go to `AWS Lambda>Functions`
+
+- Create a function : 
+
+![alt text](<Images/Screenshot 2025-08-29 021521.png>)
+
+- We can see that the function is created successfully . We now add the code from this file and deploy the function:
+
+[text](lambda-func.py) 
