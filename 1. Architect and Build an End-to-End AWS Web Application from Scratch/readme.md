@@ -56,6 +56,8 @@ The app showcases how to:
 
 ![alt text](<Images/Screenshot 2025-08-29 021521.png>)
 
-- We can see that the function is created successfully . We now add the code from this file and deploy the function:
+- We can see that the function is created successfully . 
 
-[text](lambda-func.py) 
+- We now add the code from this file and deploy the function:
+
+[lamba-function](lambda-func.py) 
