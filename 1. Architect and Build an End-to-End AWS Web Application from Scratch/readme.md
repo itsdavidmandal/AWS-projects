@@ -1,3 +1,12 @@
 # Project Title : 
 Architect and Build an End-to-End AWS Web Application from Scratch
 
+# Project Description: 
+This project is a simple web application that calculates an exponent — given a base number and an exponent, it returns the result (base^exponent). While the functionality is intentionally minimal, the purpose of the project is to demonstrate how different AWS services can be tied together into a complete, shareable, end-to-end application.
+
+The app showcases how to:
+- Host a static website with AWS Amplify,
+- Expose a serverless API through API Gateway,
+- Run backend logic with AWS Lambda (Python),
+- Persist data in a DynamoDB NoSQL database, and
+- Manage secure access with IAM permissions.
