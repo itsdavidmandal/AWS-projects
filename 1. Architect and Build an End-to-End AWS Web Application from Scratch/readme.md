@@ -63,3 +63,21 @@ The app showcases how to:
 - We now add the code from this file and deploy the function:
 
 [lamba-function](lambda-func.py) 
+
+## Test the lambda function : 
+
+- Navigate to the `Test` tab : 
+
+![alt text](<Images/Screenshot 2025-08-29 022756.png>)
+
+- Create a new event and give it a name : 
+![alt text](<Images/Screenshot 2025-08-29 022808.png>)
+
+- Edit the `Event Json` : 
+![alt text](<Images/Screenshot 2025-08-29 022929.png>)
+
+- Hit `Test`
+
+- We can check the result and see that it is as expected. 
+
+![alt text](<Images/Screenshot 2025-08-29 023010.png>)
