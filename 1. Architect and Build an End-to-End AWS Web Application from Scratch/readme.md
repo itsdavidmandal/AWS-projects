@@ -149,3 +149,24 @@ The app showcases how to:
 - Here we can see the response 
 
 ![alt text](<Images/Pasted image 20250829233009.png>)
+
+## Create the DynamoDB table : 
+
+-  We shall be storing the response of the calculation in the database , hence we need to make a dynamodb database . 
+
+-  We go to `DynamoDB > Tables > Create Table`  
+
+![alt text](<Images/Screenshot 2025-08-29 234745.png>)
+
+-  We are provided an interface to create the table . We input the name and the partition key.
+
+![alt text](<Images/Screenshot 2025-08-29 234750.png>)
+
+- We can observe that our table has been created.  
+
+![alt text](<Images/Screenshot 2025-08-29 234826.png>)
+
+- By clicking on the table , we can see the general information of the table . We need to note down the `ARN` of the table , as it will help later on in the formation of the policy. 
+
+![alt text](<Images/Screenshot 2025-08-29 234841.png>)
+
