@@ -74,6 +74,7 @@ The app showcases how to:
 ![alt text](<Images/Screenshot 2025-08-29 022808.png>)
 
 - Edit the `Event Json` : 
+
 ![alt text](<Images/Screenshot 2025-08-29 022929.png>)
 
 - Hit `Test`
@@ -81,3 +82,60 @@ The app showcases how to:
 - We can check the result and see that it is as expected. 
 
 ![alt text](<Images/Screenshot 2025-08-29 023010.png>)
+
+## Create an API : 
+
+- Go to the `Amazon API gateway` 
+
+- Select "Create a new API"
+
+- We need to make a `Rest API` 
+
+![[Screenshot 2025-08-29 092910 1.png]]
+
+- Select `New API` and provide the API's name 
+ 
+![[Screenshot 2025-08-29 092931.png]]
+
+- Here we can see that the API is successfully completed. 
+![[Screenshot 2025-08-29 092945.png]]
+
+- We need to create a method , in order to invoke the API. Select `Create method`
+ 
+![[Screenshot 2025-08-29 093002.png]]
+
+- We shall select the method type as `POST` and select the integration type as `Lambda` , since we are going to invoke the lambda function. 
+![[Screenshot 2025-08-29 093027.png]]
+
+- Select the desired lambda function
+
+![[Screenshot 2025-08-29 093034.png]]
+
+-  We now need to enable CORS 
+![[Screenshot 2025-08-29 093104.png]]
+
+- After all of the above processes , we hit save. 
+![[Screenshot 2025-08-29 093409.png]]
+
+- After saving all the settings and configurations , we hit `Deploy API` and a pop up window opens up.  
+![[Screenshot 2025-08-29 093455.png]]
+
+- We then select the Stage as `New Stage` and provide a stage name as we desire.
+
+![[Screenshot 2025-08-29 093508.png]]
+
+- Now we shall get the following dashboard. 
+![[Screenshot 2025-08-29 093533.png]]
+
+- We need to save the `Invoke URL` : 
+![[Screenshot 2025-08-29 093536.png]]
+- Now for the testing part , we go to the POST tab and then select the `Test` tab. 
+
+![[Screenshot 2025-08-29 093643.png]]
+
+
+- We type in the values and then hit "Test"
+![[Pasted image 20250829232939.png]]
+
+- Here we can see the response 
+![[Pasted image 20250829233009.png]]
