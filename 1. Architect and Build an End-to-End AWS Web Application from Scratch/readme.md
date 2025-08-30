@@ -18,6 +18,20 @@ The app showcases how to:
 - Python 3.9+ (for Lambda).
 - Zip utility (to compress HTML for Amplify).
 
+- [Project Title :](#project-title--)
+- [Project Description:](#project-description-)
+- [Prerequisites](#prerequisites)
+- [Step-by-Step Guide:](#step-by-step-guide-)
+  * [Create and host the web page:](#create-and-host-the-web-page-)
+  * [Create the Lambda function:](#create-the-lambda-function-)
+  * [Test the lambda function :](#test-the-lambda-function--)
+  * [Create an API :](#create-an-api--)
+  * [Create the DynamoDB table :](#create-the-dynamodb-table--)
+  * [Policy implemention in the lambda function :](#policy-implemention-in-the-lambda-function--)
+  * [Updating the Lambda function:](#updating-the-lambda-function-)
+  * [Connecting the webpage with the API :](#connecting-the-webpage-with-the-api--)
+  * [Observing the end result .](#observing-the-end-result-)
+
 # Step-by-Step Guide: 
 
 ## Create and host the web page:
