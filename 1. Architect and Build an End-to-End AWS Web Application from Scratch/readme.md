@@ -204,3 +204,31 @@ This policy effectively gives that function full CRUD access to the specified Dy
 
 ![alt text](<Images/Screenshot 2025-08-30 000839.png>)
 
+## Updating the Lambda function: 
+
+- We now need to update the lambda function so that it will write to the dynamoDB table . 
+
+-  We update the code : 
+
+![alt text](<Images/Screenshot 2025-08-30 225516.png>)
+
+- The code can be found here : [updated function](lambda-func-2.py)
+
+- We know test the lambda function with the same variables ( u can chose ur own variables as well).
+
+![alt text](<Images/Screenshot 2025-08-30 225707.png>)
+
+- Here we can see that the test was successful : 
+
+![alt text](<Images/Screenshot 2025-08-30 230518.png>)
+
+- Now we need to check the Dynamodb to see if the changes was recorded or not : 
+
+- Navigate to the table and then click `Explore Table Items`
+
+![alt text](<Images/Screenshot 2025-08-30 230759.png>)
+
+- Here we can see that the table was updated : 
+
+![alt text](<Images/Screenshot 2025-08-30 230806.png>)
+
