@@ -232,3 +232,18 @@ This policy effectively gives that function full CRUD access to the specified Dy
 
 ![alt text](<Images/Screenshot 2025-08-30 230806.png>)
 
+## Connecting the webpage with the API : 
+
+- The current index.html is incapable of invoking the API , hence we need to update the code . 
+
+- The updated code can be found here : [Updated index](updated-index.html)
+
+- I have put my ARN of the API , you need to put yours . 
+
+- Zip the updated index.html and then reupload it to the Amplify . 
+
+## Observing the end result . 
+
+Here we can see that the alert is successfully popped up . 
+
+![alt text](<Images/Screenshot 2025-08-30 234938.png>)
