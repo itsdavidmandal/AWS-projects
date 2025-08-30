@@ -170,3 +170,37 @@ The app showcases how to:
 
 ![alt text](<Images/Screenshot 2025-08-29 234841.png>)
 
+## Policy implemention in the lambda function :
+
+- In order to implement the policy in the lambda function , we need to navigate to the function's tab and then navigate to the `Configuration` tab. 
+
+![alt text](<Images/Screenshot 2025-08-30 000255.png>)
+
+![alt text](<Images/Screenshot 2025-08-30 000302.png>)
+
+- Under the `Permissions` section , we can see that there is a `Role` ; the role name might be different for everyone. 
+
+![alt text](<Images/Screenshot 2025-08-30 000439.png>)
+
+- We go to the `Role` and we shall find a dashboard like below : 
+
+![alt text](<Images/Screenshot 2025-08-30 000457.png>)
+
+- We need to add a Inline Permission 
+
+![alt text](<Images/Screenshot 2025-08-30 000500.png>)
+
+- We navigate to the JSON policy navigator and input the following policy :
+
+![alt text](<Images/Screenshot 2025-08-30 000810.png>)
+
+The policy can be found here : [Lambda-policy](Lambda-func-policy.txt)
+
+This policy effectively gives that function full CRUD access to the specified DynamoDB table.
+
+- We then give the name of the policy and then create it : 
+
+![alt text](<Images/Screenshot 2025-08-30 000827.png>)
+
+![alt text](<Images/Screenshot 2025-08-30 000839.png>)
+

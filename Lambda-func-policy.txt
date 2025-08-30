@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17", // Policy language version (fixed AWS standard)
+  "Statement": [
+    {
+      "Sid": "VisualEditor0", // Statement identifier (optional, for reference)
+      "Effect": "Allow", // Grants access (instead of Deny)
+      "Action": [ // List of allowed DynamoDB operations
+        "dynamodb:PutItem",   // Add new items
+        "dynamodb:DeleteItem",// Remove items
+        "dynamodb:GetItem",   // Read a single item by key
+        "dynamodb:Scan",      // Read all items in the table (expensive operation)
+        "dynamodb:Query",     // Read items by key condition
+        "dynamodb:UpdateItem" // Modify an existing item
+      ],
+      "Resource": "YOUR-TABLE-ARN" // ARN of the DynamoDB table to apply these permissions
+    }
+  ]
+}
