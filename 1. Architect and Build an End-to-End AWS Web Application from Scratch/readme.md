@@ -11,6 +11,10 @@ The app showcases how to:
 - Persist data in a DynamoDB NoSQL database, and
 - Manage secure access with IAM permissions.
 
+# Project Architecture : 
+
+![alt text](Images/AWS-1.png)
+
 # Prerequisites
 - AWS account with console access.
 - Basic AWS knowledge (Lambda, API Gateway, DynamoDB).
