@@ -236,7 +236,7 @@ This policy effectively gives that function full CRUD access to the specified Dy
 
 - The current index.html is incapable of invoking the API , hence we need to update the code . 
 
-- The updated code can be found here : [Updated index](updated-index.html)
+- The updated code can be found here : [Updated index](index.html)
 
 - I have put my ARN of the API , you need to put yours . 
 
