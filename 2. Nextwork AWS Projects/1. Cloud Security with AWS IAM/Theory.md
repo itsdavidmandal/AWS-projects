@@ -24,3 +24,13 @@ It the live system where the application is deployed for real users, handling ac
 ## Dev environment
 
 A development (dev) environment and a production (prod) environment serve different purposes in the software lifecycle. The dev environment is where developers build, test, and experiment with code, often using mock data and tools that allow frequent changes without affecting end users. It is designed to be flexible, enabling debugging, feature testing, and rapid iteration.
+
+# Instance type : 
+
+An instance type in AWS defines the specific hardware configuration of an EC2 instance, including its **CPU, memory, storage, and network capacity**. AWS offers a wide variety of instance types organized into families such as General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, and GPU instances, each designed to handle different workloads.
+
+# Key Pair : 
+
+Key Pair is a set of cryptographic keys used to securely access EC2 instances. It consists of a **public key**, which AWS stores, and a **private key**, which the user downloads and keeps safe. <br>When an EC2 instance is launched with a key pair, the public key is embedded on the instance, allowing the user to securely connect via SSH (for Linux) or RDP (for Windows) using the private key. <br>Key pairs eliminate the need for traditional passwords, providing a secure, encrypted method for authentication and ensuring that only users with the correct private key can access the instance.
+
+
