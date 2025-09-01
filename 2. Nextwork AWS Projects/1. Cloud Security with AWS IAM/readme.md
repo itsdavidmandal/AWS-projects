@@ -25,6 +25,7 @@ This project demonstrates how to secure AWS resources using **IAM (Identity and 
   * Allow viewing of all EC2 instances
   * Prevent modifying or stopping instances tagged as `production`
 
+![alt text](<architecture (1).png>)
 
 ## Concepts Learned
 
